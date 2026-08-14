@@ -1,0 +1,16 @@
+{
+  "cleanUrls": true,
+  "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/jamna-bader-first-female-padi-instructor-lakshadweep.html",
+      "destination": "/first-female-padi-scuba-diving-instructor-lakshadweep",
+      "permanent": true
+    },
+    {
+      "source": "/jamna-bader-first-female-padi-instructor-lakshadweep",
+      "destination": "/first-female-padi-scuba-diving-instructor-lakshadweep",
+      "permanent": true
+    }
+  ]
+}
