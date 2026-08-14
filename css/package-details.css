@@ -1,0 +1,327 @@
+/* Extracted Styles for Package Details Pages */
+.course-details {
+    width: 100%;
+    background: #fff;
+    font-family: "Poppins", sans-serif;
+}
+
+.course-hero {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.course-hero i {
+    font-size: 40px;
+    color: #05375c;
+}
+
+.course-hero h2 {
+    font-size: 32px;
+    color: #05375c;
+    margin: 10px 0;
+}
+
+.course-hero p {
+    font-size: 18px;
+    color: #444;
+}
+
+.course-sections {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.course-card {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 18px;
+    padding: 25px 30px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(5, 55, 92, 0.15);
+    transition: all 0.3s ease;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 30px rgba(5, 55, 92, 0.2);
+}
+
+.course-card h3 {
+    font-size: 18px;
+    /* Reduced from 22px as per request */
+    color: #05375c;
+    margin-bottom: 15px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    line-height: 1.4;
+}
+
+.course-card ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.course-card ul li {
+    font-size: 16px;
+    color: #333;
+    margin: 8px 0;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.course-card ul li i,
+.course-card p i {
+    color: #05375c;
+    min-width: 20px;
+}
+
+.page-layout {
+    margin-bottom: 80px;
+}
+
+.tour-content {
+    flex: 1;
+    min-width: 65%;
+}
+
+.booking-sidebar {
+    flex: 0 0 350px;
+    position: sticky;
+    top: 100px;
+    height: fit-content;
+}
+
+/* Booking widget (desktop) */
+.booking-bar {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.95);
+    border-radius: 18px;
+    padding: 25px 30px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    border: 1px solid rgba(5, 55, 92, 0.15);
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    position: relative;
+}
+
+.booking-head h3 {
+    font-size: 22px;
+    color: #05375c;
+    margin: 10px 0 20px;
+}
+
+.ribbon {
+    position: absolute;
+    top: -10px;
+    left: 15px;
+    background: #48bf84;
+    color: #fff;
+    padding: 6px 14px;
+    font-size: 13px;
+    font-weight: 600;
+    border-radius: 6px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.booking-details {
+    text-align: left;
+    margin: 15px 0 20px;
+}
+
+.booking-details p {
+    margin: 6px 0;
+    font-size: 15px;
+    color: #444;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.booking-details i {
+    color: #05375c;
+    min-width: 18px;
+}
+
+.booking-price {
+    margin: 15px 0 25px;
+}
+
+.booking-price .label {
+    font-size: 14px;
+    color: #777;
+}
+
+.booking-price h2 {
+    font-size: 30px;
+    /* Slight adjust */
+    margin: 8px 0;
+    color: #05375c;
+}
+
+.booking-price h2 i {
+    color: #48bf84;
+    margin-right: 5px;
+}
+
+.booking-price small {
+    font-size: 12px;
+    color: #666;
+}
+
+/* Updated Button Styles for Premium Look */
+.book-btn {
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: #05375c;
+    /* Solid premium color */
+    border: none;
+    border-radius: 50px;
+    /* Pill shape */
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 15px rgba(5, 55, 92, 0.3);
+}
+
+.book-btn i {
+    margin-right: 8px;
+}
+
+.book-btn:hover {
+    background: #042b49;
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(5, 55, 92, 0.4);
+}
+
+/* Mobile Booking Bar */
+.mobile-booking-bar {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    color: #333;
+    padding: 15px 20px;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 999;
+    box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.1);
+    font-family: "Poppins", sans-serif;
+    border-top: 1px solid #eee;
+}
+
+.mobile-booking-bar span {
+    font-size: 14px;
+    color: #777;
+}
+
+.mobile-booking-bar strong {
+    color: #05375c;
+    font-size: 18px;
+    display: block;
+}
+
+.mobile-book-btn {
+    background: #05375c;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 50px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(5, 55, 92, 0.3);
+}
+
+.mobile-book-btn:hover {
+    background: #042b49;
+    transform: translateY(-2px);
+}
+
+/* Responsive handling */
+@media (max-width: 768px) {
+    .mobile-booking-bar {
+        display: flex;
+        /* show bottom booking bar */
+    }
+
+    .booking-sidebar {
+        display: none;
+        /* Hide sidebar on mobile */
+    }
+}
+
+/* Utility: Text Truncation */
+.trim-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.loader {
+    position: fixed;
+    inset: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #87CEEB 0%, #004375 100%);
+    z-index: 9999;
+    flex-direction: column;
+}
+
+.loader-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    animation: fadeIn 0.5s ease-in;
+}
+
+.loader-gif {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    box-shadow: 0 10px 40px rgba(0, 67, 117, 0.4);
+    animation: pulse 2s ease-in-out infinite;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes pulse {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+}
