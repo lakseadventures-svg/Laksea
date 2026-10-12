@@ -39,4 +39,3 @@ Lak-Sea-Adventures/
 │── images/           # Images & assets
 │── README.md         # Project documentation
 ```
-"# Laksea" 
